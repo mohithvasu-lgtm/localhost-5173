@@ -1,0 +1,498 @@
+You are an expert Full Stack Software Engineer with 15+ years of experience building production-grade internal business applications.
+
+Your task is to build a complete micro Project Management application called "WorkLog Tracker".
+
+IMPORTANT RULES
+
+- Do NOT generate placeholder code.
+- Do NOT skip functionality.
+- Do NOT leave TODO comments.
+- Every feature must work.
+- Every button must work.
+- Every chart must work.
+- Every form must work.
+- Every CRUD operation must work.
+- Code should be modular and clean.
+- The UI should be modern.
+- Build this like a real product.
+
+Do NOT generate everything in one response.
+
+Instead build the application step by step.
+
+Wait for my approval after each step.
+
+Never continue automatically.
+
+======================================================
+
+TECH STACK
+
+Use
+
+React
+Vite
+Tailwind CSS
+JavaScript (or TypeScript)
+Chart.js
+Local Storage
+
+No backend.
+
+No authentication.
+
+Everything stored in browser.
+
+======================================================
+
+PROJECT STRUCTURE
+
+/src
+
+/components
+
+/pages
+
+/hooks
+
+/utils
+
+/data
+
+/charts
+
+======================================================
+
+OBJECTIVE
+
+The application replaces my Excel sheet.
+
+I manage only 10 associates.
+
+This application is only for me.
+
+The goal is to finish entering the stand-up updates in less than 5 minutes.
+
+Everything should be optimized for speed.
+
+======================================================
+
+MODULES
+
+1. Dashboard
+
+2. Stand-up Entry
+
+3. Associates
+
+4. Goals
+
+5. Reports
+
+6. Settings
+
+======================================================
+
+FEATURES
+
+ASSOCIATES
+
+Name
+
+Employee ID
+
+Team
+
+Status
+
+CRUD
+
+======================================================
+
+GOALS
+
+Goal Name
+
+Color
+
+Description
+
+CRUD
+
+======================================================
+
+STAND-UP ENTRY
+
+The main screen.
+
+Every associate should appear as a card.
+
+Inside the card
+
+Task
+
+Goal
+
+Status
+
+Priority
+
+Blocker
+
+Comments
+
+Allocation
+
++ Add Task
+
+Delete Task
+
+Duplicate Task
+
+Auto Save
+
+Example
+
+John
+
+Task
+
+Goal 2
+
+Allocation
+
+0.5
+
+Comments
+
+.....
+
++ Add Task
+
+------------------------------------------------
+
+Rahul
+
+Task
+
+Goal 1
+
+Allocation
+
+1
+
+Comments
+
+.....
+
+======================================================
+
+ALLOCATION
+
+If
+
+1 task
+
+Allocation
+
+1
+
+If
+
+2 tasks
+
+0.5
+
+0.5
+
+If
+
+3 tasks
+
+0.33
+
+0.33
+
+0.34
+
+Automatically calculate.
+
+Allow manual editing.
+
+Warn if allocation != 1.
+
+======================================================
+
+STATUS
+
+Not Started
+
+In Progress
+
+Completed
+
+Blocked
+
+======================================================
+
+PRIORITY
+
+Low
+
+Medium
+
+High
+
+Critical
+
+======================================================
+
+BLOCKER
+
+Optional
+
+Waiting for Review
+
+Waiting for Requirement
+
+Waiting for Dependency
+
+Waiting for Client
+
+None
+
+======================================================
+
+DASHBOARD
+
+Today's KPIs
+
+Total Associates
+
+Total Tasks
+
+Goals Worked
+
+Blocked Tasks
+
+Completed Tasks
+
+Average Allocation
+
+======================================================
+
+INDIVIDUAL DASHBOARD
+
+Weekly Tasks
+
+Monthly Tasks
+
+Goal Distribution
+
+Pie Chart
+
+Task Count
+
+Average Allocation
+
+Last Updated
+
+======================================================
+
+TEAM DASHBOARD
+
+All Associates
+
+Tasks
+
+Allocation
+
+Goal %
+
+Blocked
+
+Completion %
+
+Pie Chart
+
+Bar Chart
+
+Weekly Trend
+
+======================================================
+
+REPORTS
+
+Daily
+
+Weekly
+
+Monthly
+
+Individual
+
+Export CSV
+
+Print
+
+======================================================
+
+SEARCH
+
+Associate
+
+Goal
+
+Task
+
+Comment
+
+======================================================
+
+FILTERS
+
+Date
+
+Week
+
+Month
+
+Associate
+
+Goal
+
+======================================================
+
+AUTO SAVE
+
+Every change should save immediately.
+
+======================================================
+
+LOCAL STORAGE
+
+Persist all data.
+
+======================================================
+
+KEYBOARD SHORTCUTS
+
+N = New Task
+
+Ctrl + S = Save
+
+Ctrl + F = Search
+
+======================================================
+
+DESIGN
+
+Modern
+
+Minimal
+
+Inspired by
+
+Notion
+
+Linear
+
+ClickUp
+
+Use rounded cards.
+
+Soft shadows.
+
+Responsive.
+
+======================================================
+
+WORKFLOW
+
+The application should follow this order.
+
+STEP 1
+
+Create project.
+
+Create folder structure.
+
+Create layout.
+
+Wait.
+
+STEP 2
+
+Create navigation.
+
+Create Dashboard.
+
+Wait.
+
+STEP 3
+
+Create Associates CRUD.
+
+Wait.
+
+STEP 4
+
+Create Goals CRUD.
+
+Wait.
+
+STEP 5
+
+Create Stand-up Entry.
+
+Wait.
+
+STEP 6
+
+Auto Allocation.
+
+Wait.
+
+STEP 7
+
+Dashboard Charts.
+
+Wait.
+
+STEP 8
+
+Reports.
+
+Wait.
+
+STEP 9
+
+Search.
+
+Wait.
+
+STEP 10
+
+Final polishing.
+
+======================================================
+
+Never jump ahead.
+
+Complete one step fully.
+
+Wait for my confirmation before continuing.
+
+Always provide complete code for that step.
+
+Never use placeholder code.
+
+You are not allowed to stop because of response length.
+
+When the response becomes too long, automatically continue in the next response until the current step is fully complete.
+
+Do not rewrite previous code.
+
+Only generate the remaining code.
+
+Maintain the project structure throughout.
