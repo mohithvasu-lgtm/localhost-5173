@@ -1,0 +1,91 @@
+Prerequisites
+Make sure you have these installed on your computer:
+
+Node.js (v18 or above) — download from nodejs.org
+VS Code — recommended editor
+Terminal — Command Prompt, PowerShell, or VS Code's built-in terminal
+Check if Node is installed by running:
+node -v
+npm -v
+
+Step-by-Step Instructions
+
+1. Create the Project Folder
+Open your terminal and run:
+mkdir worklog-tracker
+cd worklog-tracker
+
+2. Create the Folder Structure
+Run this inside worklog-tracker/:
+mkdir -p src/components src/pages src/hooks src/utils src/data src/charts public
+
+3. Create Each File
+For every file block I gave you in my previous response, do this:
+Open VS Code
+Navigate to the correct folder (src/utils/, src/data/, etc.)
+Create a new file with the exact filename shown (e.g. nanoid.js)
+Paste the code from the code block into that file
+Save (Ctrl+S)
+
+4. File Creation Checklist
+Create these files in this order:
+| File Path                 | What to Copy From            |
+| ------------------------- | ---------------------------- |
+| package.json              | The package.json block       |
+| vite.config.js            | The vite.config.js block     |
+| tailwind.config.js        | The tailwind.config.js block |
+| postcss.config.js         | The postcss.config.js block  |
+| index.html                | The index.html block         |
+| src/index.css             | The src/index.css block      |
+| src/main.jsx              | The src/main.jsx block       |
+| src/utils/nanoid.js       | The nanoid.js block          |
+| src/utils/date.js         | The date.js block            |
+| src/utils/allocation.js   | The allocation.js block      |
+| src/data/storage.js       | The storage.js block         |
+| src/data/seeds.js         | The seeds.js block           |
+| src/data/AppContext.jsx   | The AppContext.jsx block     |
+| src/components/Logo.jsx   | The Logo.jsx block           |
+| src/components/Layout.jsx | The Layout.jsx block         |
+| src/pages/NotFound.jsx    | The NotFound.jsx block       |
+| src/App.jsx               | The App.jsx block            |
+
+5. Install Dependencies
+Once all files are created, run in your terminal (inside worklog-tracker/):
+-- npm install
+This downloads React, Vite, Tailwind, Chart.js, and all other libraries. It takes 1–2 minutes.
+
+6. Start the App
+-- npm run dev
+You'll see output like:
+  VITE v6.x  ready in 400ms
+  ➜  Local:   http://localhost:5173/
+Open http://localhost:5173 in your browser.
+
+Folder Structure Visual
+worklog-tracker/
+├── public/
+│   └── favicon.svg          ← paste the SVG code here
+├── src/
+│   ├── charts/              ← empty for now
+│   ├── components/
+│   │   ├── Layout.jsx
+│   │   └── Logo.jsx
+│   ├── data/
+│   │   ├── AppContext.jsx
+│   │   ├── seeds.js
+│   │   └── storage.js
+│   ├── hooks/               ← empty for now
+│   ├── pages/
+│   │   └── NotFound.jsx
+│   ├── utils/
+│   │   ├── allocation.js
+│   │   ├── date.js
+│   │   └── nanoid.js
+│   ├── App.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+
